@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200&family=Covered+By+Your+Grace&display=swap');
+
+body {
+    padding-top: 50px;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+body p {
+    font-family: 'Anybody', cursive;
+}
+
+body a {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.offcanvas-body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("/Users/force/bootcamp/bonus/TSC/the-sneaker-closet/assets/images/offcanvas.jpg");
+    background-size: cover;
+    font-family: 'Anybody', cursive;
+}
+
+.offcanvas-body a {
+    font-family: 'Anybody', cursive;
+}
+
+.jumbotron {
+    color: white;
+    text-shadow: 1px 1px 3px #FF0000, 1px 1px 5px #0000FF;
+}
+
+.jumbo-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/Users/force/bootcamp/bonus/TSC/the-sneaker-closet/assets/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px 20px 20px;
+}
+
+@media only screen and (min-width: 900px) {
+    .offcanvas-body {
+        background-image: none;
+    }
+}
